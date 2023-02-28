@@ -12,8 +12,8 @@ metadata:
   namespace: mdsaud-tenant
 spec:
   ports:
-  - port: 8085
-    targetPort: 8085
+  - port: 8084
+    targetPort: 8084
   selector:
     app.kubernetes.io/instance: python-ex-out3
 status:
