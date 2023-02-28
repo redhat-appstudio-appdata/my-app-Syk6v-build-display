@@ -31,11 +31,12 @@ spec:
         - containerPort: 3001
           name: http
           protocol: TCP
+        - containerPort: 3000
         resources:
           limits:
             cpu: 100m
             memory: 100Mi
           requests:
             cpu: 10m
-            memory: 50Mi
+            memory: 49Mi
 status: {}
