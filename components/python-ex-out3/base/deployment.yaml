@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-ex-out3
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:Syk6v-python-ex-out3
+      - image: quay.io/redhat-appstudio/user-workload@sha256:6dd8de9ebda433ca4393d53f9145f45ea87b827fe0fb0f0a50855b0d72f0f749
         name: my-python
         ports:
         - containerPort: 8081
