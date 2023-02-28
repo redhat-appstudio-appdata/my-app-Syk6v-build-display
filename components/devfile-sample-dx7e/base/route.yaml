@@ -13,7 +13,7 @@ metadata:
 spec:
   path: /
   port:
-    targetPort: 2999
+    targetPort: 3000
   to:
     kind: Service
     name: devfile-sample-dx7e
